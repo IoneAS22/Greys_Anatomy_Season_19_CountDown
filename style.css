@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Share Tech Mono', monospace;
+    color: #fff;
+}
+
+
+/* Imagem de Fundo */
+
+.backGround {
+    background: url(greys-anatomy-season-18-key-art.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Transparência */
+
+.transparency {
+    background-color: #000000b2;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Logo e Animação */
+
+.logoTitle {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.logoTitle img {
+    width: 100%;
+}
+
+.textGreysSize{
+    height: 80%;
+}
+
+
+.textAnatomySize{
+    height: 108%;
+}
+
+/* Barra e animção abaixo título Grey's */
+
+.barLogo {
+    background: linear-gradient(90deg, red,rgba(255, 0, 0, 0.75),rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0));
+    width: 95%;
+    text-align: center;
+    padding: 2vmin 0;
+    animation: barGreys 1.5s ease-in-out infinite forwards;
+    transform-origin: 0%;
+}
+
+@keyframes barGreys {
+    from {
+        background-position: 0%;
+        transform: scaleX(0);
+        
+    }
+    to {
+        background-position: 100%;
+        transform: scaleX(1);
+    }
+}
+
+/* Texto Nova Temporada */
+.novaTemporada {
+    font-size: 3.5vmin;
+}
+
+.temporada {
+    border-bottom: 3px solid red ;
+}
+
+/* Formatação Contagem regressiva */
+
+.time {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15vmin;
+    color: #fff;
+}
+
+.days::after, .hours::after, .minutes::after, .seconds::after {
+    display: flex;
+    justify-content: center;
+    font-size: 4vmin;
+}
+
+.days::after {
+    content: 'dias';
+}
+
+.hours::after {
+    content: 'horas';
+}
+
+.minutes::after {
+    content: 'minutos';
+
+}
+.seconds::after {
+    content: 'segundos';
+}
