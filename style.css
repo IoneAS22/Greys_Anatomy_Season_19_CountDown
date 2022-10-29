@@ -116,3 +116,7 @@
 .seconds::after {
     content: 'segundos';
 }
+
+.removeTime {
+  display: none;   
+}
