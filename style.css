@@ -117,6 +117,10 @@
     content: 'segundos';
 }
 
+.demo {
+    font-size: 4vmin;
+}
+
 .removeTime {
   display: none;   
 }
