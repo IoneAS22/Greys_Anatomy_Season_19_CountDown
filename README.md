@@ -14,4 +14,15 @@ This projet was done using:
 [X] CSS<br>
 [X] HTML
 
+You can check this project working at:
+
+Desktop Version:
+
+![greys_home_desktop_response](https://user-images.githubusercontent.com/99365685/198852654-d2875829-537a-41e3-a15b-53b49bbe28da.jpg)
+
+Mobile Version:
+
+![greys_home_mobile](https://user-images.githubusercontent.com/99365685/198852659-f437839a-54e3-4dd8-863f-b4522a315ee1.jpg)
+
+
 Warning: This characters as well the tv show mentioned in this project is property of the ABC America Television. I do not own any of it. This was used to education purposes only (and just because I like the show. I hope you guys enjoy).
