@@ -21,8 +21,10 @@ function greysCountdown () {
     segundos.innerHTML = `${(segundosCountdown > 9 ? segundosCountdown : `0${segundosCountdown}`)}`;
 
   if (diference < 0) {
+    let timer = document.querySelector('.time);
+    timer.classList.add('removeTime');
     document.getElementById("demo").innerHTML = "The New Season Has Already Started. Enjoy!";
-  }
+  };
 
 };
 
