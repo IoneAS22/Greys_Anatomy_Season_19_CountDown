@@ -22,7 +22,6 @@ Desktop Version:
 
 Mobile Version:
 
-![greys_home_mobile](https://user-images.githubusercontent.com/99365685/198852659-f437839a-54e3-4dd8-863f-b4522a315ee1.jpg)
-
+![greys_home_mobile](https://user-images.githubusercontent.com/99365685/198852677-b85f3cd4-7428-4f28-bcf7-9155e7b5d9fb.jpg)
 
 Warning: This characters as well the tv show mentioned in this project is property of the ABC America Television. I do not own any of it. This was used to education purposes only (and just because I like the show. I hope you guys enjoy).
