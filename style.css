@@ -117,10 +117,13 @@
     content: 'segundos';
 }
 
-.demo {
-    font-size: 4vmin;
+.newSeason {
+    font-size: 7vmin;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.removeTime {
-  display: none;   
+.displayRemove {
+    display: none;
 }
